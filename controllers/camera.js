@@ -47,6 +47,7 @@ exports.getOneCamera = (req, res, next) => {
  *
  */
 exports.orderCameras = (req, res, next) => {
+  console.log(req.body);
   if (!req.body.contact ||
       !req.body.contact.firstName ||
       !req.body.contact.lastName ||

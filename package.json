@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-dev": "nodes_modules/nodemon --inspect ./server.js"
+    "start-dev": "nodemon --inspect ./server.js"
   },
   "author": "",
   "license": "ISC",
