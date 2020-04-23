@@ -1,6 +1,6 @@
 # Orinoco #
 
-This is the back end server for Orinico application.
+This is the back end server for Orinoco application.
 
 This is the link for the front end : https://github.com/laura241/orinoco_ui.git .
 
