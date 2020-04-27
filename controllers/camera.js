@@ -27,11 +27,12 @@ exports.getOneCamera = (req, res, next) => {
       res.status(200).json(camera);
     }
   ).catch(
-    (error) => {
-      res.status(500).send(error);
+    () => {
+      res.status(500).send(new Error('Database error!'));
     }
   )
 };
+
 
 /**
  *
